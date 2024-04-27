@@ -9,39 +9,363 @@ html {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #232323;
+  font-family: "Philosopher", sans-serif;
+  background-color: #2a3242;
 }
+
+/*HEADER START*/
 
 .header {
   height: 100vh;
+  margin: 1rem 4rem;
 }
 
-.navigation {
+.header .navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.navigation ul {
-  display: flex;
-  list-style: none;
+.header .navigation .logo {
+  width: 5rem;
+  height: 5rem;
 }
 
-.nav-list {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  /* gap: 6rem; */
+.header .navigation .logo img {
+  width: 100%;
+  height: 100%;
 }
 
-.nav-list .nav-link {
+.header .navigation ul {
+  display: flex;
+  list-style: none;
+  gap: 8rem;
+  font-size: 1.2rem;
+}
+
+.header .navigation li,
+a.nav-link {
+  color: #aea9a9;
+}
+
+.header .navigation ul Button.btn {
+  background-color: none;
+  border: 1px solid #000000;
+  text-transform: capitalize;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: color 0.7s linear;
+  position: relative;
+  border-radius: 7px;
+  font-size: 1.2rem;
+}
+
+.header .navigation ul Button.btn:hover {
   color: #fff;
 }
 
-.btn {
-  text-decoration: none;
-  background-color: #fff;
-  font-size: 1.5rem;
-  margin-left: 35rem;
+.header .navigation ul Button.btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
 }
+
+.header .navigation .nav-list {
+  align-items: center;
+}
+
+.header .contents {
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  margin-top: 3rem;
+}
+
+.header .contents .textbox {
+  flex: 1;
+}
+
+.header .contents .textbox .heading-primary {
+  color: #fff;
+  font-size: 7rem;
+  align-items: center;
+  font-weight: 500;
+}
+
+.paragraph-1 {
+  font-size: 1.3rem;
+  color: #aea9a9;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  width: 75%;
+  line-height: 2rem;
+}
+
+.header .contents .textbox Button.btn {
+  background-color: none;
+  border: 1px solid #000000;
+  text-transform: capitalize;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: color 0.7s linear;
+  position: relative;
+  border-radius: 7px;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.header .contents .composition {
+  flex: 1;
+  /* height: 100%; */
+}
+
+.header .contents .composition img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  object-position: right;
+}
+
+.header .contents .textbox.figure {
+  margin-top: 5rem;
+  color: #fff;
+  display: flex;
+  gap: 6rem;
+}
+
+.header .contents .textbox.figure .wrapper .figure {
+  font-size: 3.5rem;
+  font-weight: 200;
+  margin-bottom: 4px;
+}
+
+.header .contents .textbox.figure .wrapper .heading-secdondary {
+  font-weight: 100;
+}
+
+/*HEADER END*/
+
+/*SECTION ABOUT START*/
+
+section.about {
+  height: 50vh;
+  margin: 1rem 4rem;
+}
+
+section.about .heading-primary {
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+}
+
+section.about .textbox {
+  display: flex;
+  gap: 10rem;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+section.about .textbox .wrapper {
+  align-items: center;
+}
+
+section.about .textbox .wrapper img {
+  background-color: #fff;
+  width: 3rem;
+  height: 3rem;
+  padding: 1.2rem 1.2rem;
+  border-radius: 50%;
+  margin-left: 15rem;
+  margin-bottom: 2rem;
+}
+
+section.about .textbox .wrapper .heading-secondary {
+  color: #fff;
+  font-size: 2rem;
+  margin-left: 10rem;
+  margin-bottom: 2rem;
+}
+
+section.about .textbox .wrapper .paragraph {
+  color: #aea9a9;
+  width: 80%;
+  margin-left: 5rem;
+}
+
+/*SECTION ABOUT END*/
+
+/*SECTION INFO START*/
+
+section.info {
+  height: 100vh;
+  margin: 1rem 4rem;
+}
+
+section.info .textbox.main {
+  align-items: center;
+}
+
+section.info .textbox.main .heading-primary {
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+section.info .textbox.main .paragraph {
+  width: 33%;
+  margin: 0 auto;
+  color: #aea9a9;
+}
+
+section.info .composition.info {
+  display: flex;
+  padding-top: 4rem;
+  margin-bottom: 3rem;
+  align-items: center;
+  gap: 7rem;
+}
+
+section.info .composition.info .image-1 {
+  height: 40rem;
+  width: 40rem;
+  object-fit: cover;
+}
+
+section.info .composition.info .image-1 img {
+  height: 100%;
+  width: 100%;
+}
+
+section.info .composition.info .image-2 {
+  height: 40rem;
+  width: 40rem;
+  object-fit: cover;
+}
+
+section.info .composition.info .image-2 img {
+  height: 100%;
+  width: 100%;
+}
+
+section.info .composition.info .image-3 {
+  height: 40rem;
+  width: 40rem;
+  object-fit: cover;
+}
+
+section.info .composition.info .image-3 img {
+  height: 100%;
+  width: 100%;
+}
+
+section.info Button.btn.photo{
+  left: 45%;
+  background-color: none;
+  text-transform: capitalize;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: color 0.7s linear;
+  position: relative;
+  border-radius: 7px;
+}
+
+section.info Button.btn.photo:hover {
+  color: #fff;
+}
+
+section.info Button.btn.photo::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+/*SECTION INFO END*/
+
+/* MAIN START*/
+
+main.contents{
+  height: 90vh;
+  display: flex;
+  margin: 5rem 4rem;
+ 
+}
+
+main.contents .textbox{
+  flex: 1;
+}
+
+main.contents figure.composition{
+  flex: 1;
+  height:45rem;
+  width: 20rem;
+}
+
+main.contents figure.composition img{
+height: 100%;
+width: 90%;
+
+}
+
+
+main.contents .textbox .heading-primary {
+  color: #fff;
+  font-size: 4rem;
+  align-items: center;
+  font-weight: 500;
+}
+
+main.contents .textbox .paragraph-1 {
+  font-size: 1.3rem;
+  color: #aea9a9;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  width: 75%;
+  line-height: 2rem;
+}
+
+
+ main.contents .textbox Button.btn {
+  background-color: none;
+  border: 1px solid #000000;
+  text-transform: capitalize;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: color 0.7s linear;
+  position: relative;
+  border-radius: 7px;
+}
+
+main.contents .textbox Button.btn:hover {
+  color: #fff;
+}
+
+main.contents .textbox Button.btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+/* MAIN END */
