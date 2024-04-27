@@ -9,8 +9,13 @@ html {
 }
 
 body {
-  font-family: "Philosopher", sans-serif;
+  font-family: 'Philosopher', sans-serif;
   background-color: #2a3242;
+}
+
+button{
+  border: none;
+
 }
 
 /*HEADER START*/
@@ -27,13 +32,8 @@ body {
 }
 
 .header .navigation .logo {
-  width: 5rem;
-  height: 5rem;
-}
-
-.header .navigation .logo img {
-  width: 100%;
-  height: 100%;
+  font-size: 5rem;
+  color: #fff;
 }
 
 .header .navigation ul {
@@ -48,7 +48,7 @@ a.nav-link {
   color: #aea9a9;
 }
 
-.header .navigation ul Button.btn {
+.header .navigation  button.btn {
   background-color: none;
   border: 1px solid #000000;
   text-transform: capitalize;
@@ -60,12 +60,12 @@ a.nav-link {
   font-size: 1.2rem;
 }
 
-.header .navigation ul Button.btn:hover {
+.header .navigation ul button.btn:hover {
   color: #fff;
 }
 
-.header .navigation ul Button.btn::before {
-  content: "";
+.header .navigation ul button.btn::before {
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -104,7 +104,7 @@ a.nav-link {
   line-height: 2rem;
 }
 
-.header .contents .textbox Button.btn {
+.header .contents .textbox button.btn {
   background-color: none;
   border: 1px solid #000000;
   text-transform: capitalize;
@@ -120,7 +120,7 @@ a.nav-link {
 }
 
 .btn::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -213,6 +213,7 @@ section.about .textbox .wrapper .paragraph {
 section.info {
   height: 100vh;
   margin: 1rem 4rem;
+  text-align: center;
 }
 
 section.info .textbox.main {
@@ -222,7 +223,7 @@ section.info .textbox.main {
 section.info .textbox.main .heading-primary {
   color: #fff;
   font-size: 3rem;
-  text-align: center;
+  /* text-align: left; */
   margin-bottom: 2.5rem;
 }
 
@@ -231,6 +232,7 @@ section.info .textbox.main .paragraph {
   margin: 0 auto;
   color: #aea9a9;
 }
+
 
 section.info .composition.info {
   display: flex;
@@ -273,8 +275,8 @@ section.info .composition.info .image-3 img {
   width: 100%;
 }
 
-section.info Button.btn.photo{
-  left: 45%;
+section.info button.btn.photo {
+  /* left: 45%; */
   background-color: none;
   text-transform: capitalize;
   padding: 12px 20px;
@@ -282,14 +284,15 @@ section.info Button.btn.photo{
   transition: color 0.7s linear;
   position: relative;
   border-radius: 7px;
+
 }
 
-section.info Button.btn.photo:hover {
+section.info button.btn.photo:hover {
   color: #fff;
 }
 
-section.info Button.btn.photo::before {
-  content: "";
+section.info button.btn.photo::before {
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -300,29 +303,26 @@ section.info Button.btn.photo::before {
 
 /* MAIN START*/
 
-main.contents{
+main.contents {
   height: 90vh;
   display: flex;
   margin: 5rem 4rem;
- 
 }
 
-main.contents .textbox{
+main.contents .textbox {
   flex: 1;
 }
 
-main.contents figure.composition{
+main.contents figure.composition {
   flex: 1;
-  height:45rem;
+  height: 45rem;
   width: 20rem;
 }
 
-main.contents figure.composition img{
-height: 100%;
-width: 90%;
-
+main.contents figure.composition img {
+  height: 100%;
+  width: 90%;
 }
-
 
 main.contents .textbox .heading-primary {
   color: #fff;
@@ -340,8 +340,7 @@ main.contents .textbox .paragraph-1 {
   line-height: 2rem;
 }
 
-
- main.contents .textbox Button.btn {
+main.contents .textbox button.btn {
   background-color: none;
   border: 1px solid #000000;
   text-transform: capitalize;
@@ -352,20 +351,17 @@ main.contents .textbox .paragraph-1 {
   border-radius: 7px;
 }
 
-main.contents .textbox Button.btn:hover {
+main.contents .textbox button.btn:hover {
   color: #fff;
 }
 
-main.contents .textbox Button.btn::before {
-  content: "";
+main.contents .textbox button.btn::before {
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
   height: 100%;
   width: 100%;
 }
-
-
-
 
 /* MAIN END */
