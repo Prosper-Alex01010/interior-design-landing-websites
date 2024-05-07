@@ -10,7 +10,7 @@ html {
 
 body {
   box-sizing: border-box;
-  font-family: 'Philosopher', sans-serif;
+  font-family: "Philosopher", sans-serif;
   background-color: #2a3242;
 }
 
@@ -27,7 +27,7 @@ button {
 /*HEADER START*/
 
 .header {
-  height: 100vh;
+  min-height: 100vh;
   margin: 1rem 4rem;
 }
 
@@ -71,7 +71,7 @@ a.nav-link {
 }
 
 .header .navigation ul button.btn::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -126,7 +126,7 @@ a.nav-link {
 }
 
 .btn::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -166,31 +166,31 @@ a.nav-link {
 
 /*HEADER END*/
 
-/*SECTION ABOUT START*/
+/*SECTION OUR-SERVICE START*/
 
-section.about {
-  height: 50vh;
+section.Our-Service {
+  min-height: 50vh;
   margin: 1rem 4rem 8rem;
 }
 
-section.about .heading-primary {
+section.Our-Service .heading-primary {
   color: #fff;
   font-size: 3rem;
   text-align: center;
 }
 
-section.about .textbox {
+section.Our-Service .textbox {
   display: flex;
   gap: 10rem;
   align-items: center;
   margin-top: 4rem;
 }
 
-section.about .textbox .wrapper {
+section.Our-Service .textbox .wrapper {
   align-items: center;
 }
 
-section.about .textbox .wrapper img {
+section.Our-Service .textbox .wrapper img {
   background-color: #fff;
   width: 5rem;
   height: 5rem;
@@ -200,45 +200,45 @@ section.about .textbox .wrapper img {
   margin-bottom: 2rem;
 }
 
-section.about .textbox .wrapper .heading-secondary {
+section.Our-Service .textbox .wrapper .heading-secondary {
   color: #fff;
   font-size: 2rem;
   margin-left: 10rem;
   margin-bottom: 2rem;
 }
 
-section.about .textbox .wrapper .paragraph {
+section.Our-Service .textbox .wrapper .paragraph {
   color: #aea9a9;
   text-align: center;
 }
 
-/*SECTION ABOUT END*/
+/*SECTION OUR-SERVICE END*/
 
-/*SECTION INFO START*/
+/*SECTION Interior=Desgin START*/
 
-section.info {
+section.Interior-Desgin {
   margin: 1rem 4rem;
   text-align: center;
 }
 
-section.info .textbox.main {
+section.Interior-Desgin .textbox.main {
   align-items: center;
 }
 
-section.info .textbox.main .heading-primary {
+section.Interior-Desgin .textbox.main .heading-primary {
   color: #fff;
   font-size: 3rem;
   /* text-align: left; */
   margin-bottom: 2.5rem;
 }
 
-section.info .textbox.main .paragraph {
+section.Interior-Desgin .textbox.main .paragraph {
   width: 33%;
   margin: 0 auto;
   color: #c7c9db;
 }
 
-section.info .composition.info {
+section.Interior-Desgin .composition.info {
   display: flex;
   padding-top: 4rem;
   margin-bottom: 3rem;
@@ -246,19 +246,19 @@ section.info .composition.info {
   gap: 1.5rem;
 }
 
-section.info .composition.info .image {
+section.Interior-Desgin .composition.info .image {
   flex: 1;
   height: 40rem;
   object-fit: cover;
 }
 
-section.info .composition.info .image img {
+section.Interior-Desgin .composition.info .image img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
-section.info button.btn.photo {
+section.Interior-Desgin button.btn.photo {
   /* left: 45%; */
   background-color: none;
   text-transform: capitalize;
@@ -269,72 +269,73 @@ section.info button.btn.photo {
   border-radius: 7px;
 }
 
-section.info button.btn.photo:hover {
+section.Interior-Desgin button.btn.photo:hover {
   color: #fff;
 }
 
-section.info button.btn.photo::before {
-  content: '';
+section.Interior-Desgin button.btn.photo::before {
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
   height: 100%;
   width: 100%;
 }
-/*SECTION INFO END*/
+/*SECTION Interior-Desgin END*/
 
-/* MAIN START*/
+/* SECTION DREAM-HOME START*/
 
-main.contents {
+section.Dream-home {
   display: flex;
   margin: 10rem 4rem;
 }
 
-main.contents .textbox {
+section.Dream-home .textbox {
   flex: 1;
 }
 
-main.contents figure.composition {
+section.Dream-home figure.composition {
   flex: 1;
   height: 45rem;
   width: 20rem;
 }
 
-main.contents figure.composition img {
+section.Dream-home figure.composition img {
   height: 100%;
   width: 90%;
 }
 
-main.contents .textbox .heading-primary {
+section.Dream-home .textbox .heading-primary {
   color: #fff;
   font-size: 4rem;
   align-items: center;
   font-weight: 500;
   margin-bottom: 2.5rem;
+  line-height: 5rem;
 }
 
-main.contents .textbox .home-list li {
+section.Dream-home .textbox .home-list li {
   color: #c7c9db;
   border-bottom: 0.5px solid #aea9a9;
 }
 
-main.contents .textbox .home-list{
+section.Dream-home .textbox .home-list {
   font-size: 1.5rem;
-  margin:3rem 0;
+  margin: 3rem 0;
   line-height: 5rem;
   color: #c7c9db;
   list-style: none;
 }
 
-main.contents .textbox .paragraph {
+section.Dream-home .textbox .paragraph {
   font-size: 1.3rem;
   color: #c7c9db;
-  margin-top: 2rem; 
+  margin-top: 2rem;
   width: 75%;
   line-height: 2rem;
 }
 
-main.contents .textbox button.btn {
+section.Dream-home .textbox button.btn {
   background-color: none;
   border: 1px solid #000000;
   text-transform: capitalize;
@@ -345,12 +346,12 @@ main.contents .textbox button.btn {
   border-radius: 7px;
 }
 
-main.contents .textbox button.btn:hover {
+section.Dream-home .textbox button.btn:hover {
   color: #fff;
 }
 
-main.contents .textbox button.btn::before {
-  content: '';
+section.Dream-home .textbox button.btn::before {
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -358,7 +359,117 @@ main.contents .textbox button.btn::before {
   width: 100%;
 }
 
-/* MAIN END */
+/* SECTION DREAM-HOME START END */
+
+/* SECTION SIMPLE-STEPS START */
+
+section.Simple-steps {
+  min-height: 100vh;
+  margin: 1rem 4rem;
+}
+
+section.Simple-steps .container {
+  display: flex;
+}
+
+section.Simple-steps .container .textbox .heading-primary {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 500;
+  margin-bottom: 2.5rem;
+  line-height: 5rem;
+  width: 85%;
+  margin-bottom: 3rem;
+}
+
+section.Simple-steps .container .textbox {
+  flex: 1;
+}
+
+section.Simple-steps .container figure.composition {
+  flex: 1;
+  height: 45rem;
+  width: 20rem;
+}
+
+section.Simple-steps .container figure.composition img {
+  height: 100%;
+  width: 90%;
+}
+
+section.Simple-steps .container .list-container {
+  align-items: center;
+}
+
+section.Simple-steps .container .list-container li {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+section.Simple-steps .container .list-container .wrapper .container {
+  margin: 2rem;
+  flex-direction: column;
+}
+
+section.Simple-steps
+  .container
+  .list-container
+  .wrapper
+  .container
+  .heading-secondary {
+  color: #fff;
+  font-size: 2rem;
+}
+
+section.Simple-steps .container .list-container .wrapper .container .paragraph {
+  font-size: 1.3rem;
+  color: #c7c9db;
+  margin-top: 2rem;
+  width: 75%;
+  line-height: 2rem;
+}
+
+section.Simple-steps .container .list-container .icon-container {
+  text-align: center;
+  /* border-left: 0.5px solid #aea9a9; */
+}
+
+section.Simple-steps .container .list-container .icon-container .rocket-icon {
+  font-size: 2.5rem;
+  color: #000000;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 7px 9px;
+}
+
+section.Simple-steps
+  .container
+  .list-container
+  .wrapper
+  .icon-container
+  .sunny-icon {
+  font-size: 2.5rem;
+  color: #000000;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 7px 9px;
+}
+
+section.Simple-steps
+  .container
+  .list-container
+  .wrapper
+  .icon-container
+  .flag-icon {
+  font-size: 2.5rem;
+  color: #000000;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 7px 9px;
+}
+
+/* SECTION SIMPLE-STEPS END */
 
 /*RESPONSIVE START*/
 @media only screen and (max-width: 1050px) {
@@ -374,24 +485,25 @@ main.contents .textbox button.btn::before {
     align-items: center;
     font-weight: 500;
   }
-  section.about .heading-primary {
+
+  section.Our-Service .heading-primary {
     color: #fff;
     font-size: 3rem;
     text-align: center;
   }
 
-  section.about .textbox {
+  section.Our-Service .textbox {
     display: flex;
     gap: 2rem;
     align-items: center;
     margin-top: 4rem;
   }
 
-  section.about .textbox .wrapper {
+  section.Our-Service .textbox .wrapper {
     align-items: center;
   }
 
-  section.about .textbox .wrapper img {
+  section.Our-Service .textbox .wrapper img {
     background-color: #fff;
     width: 3rem;
     height: 3rem;
@@ -401,14 +513,14 @@ main.contents .textbox button.btn::before {
     margin-bottom: 2rem;
   }
 
-  section.about .textbox .wrapper .heading-secondary {
+  section.Our-Service .textbox .wrapper .heading-secondary {
     color: #fff;
     font-size: 2rem;
     align-items: center;
     margin-bottom: 2rem;
   }
 
-  section.info .composition.info {
+  section.Interior-Desgin .composition.info {
     display: flex;
     padding-top: 4rem;
     margin-bottom: 3rem;
@@ -416,35 +528,35 @@ main.contents .textbox button.btn::before {
     gap: 5rem;
   }
 
-  section.info .composition.info .image {
+  section.Interior-Desgin .composition.info .image {
     height: 30rem;
     width: 30rem;
     object-fit: cover;
   }
 
-  section.info .composition.info .image img {
+  section.Interior-Desgin .composition.info .image img {
     height: 100%;
     width: 90%;
   }
 
-  section.info .composition.info .image-2 {
+  section.Interior-Desgin .composition.info .image-2 {
     height: 30rem;
     width: 30rem;
     object-fit: cover;
   }
 
-  section.info .composition.info .image-2 img {
+  section.Interior-Desgin .composition.info .image-2 img {
     height: 100%;
     width: 90%;
   }
 
-  section.info .composition.info .image-3 {
+  section.Interior-Desgin .composition.info .image-3 {
     height: 30rem;
     width: 30rem;
     object-fit: cover;
   }
 
-  section.info .composition.info .image-3 img {
+  section.Interior-Desgin .composition.info .image-3 img {
     height: 100%;
     width: 90%;
   }
@@ -452,7 +564,7 @@ main.contents .textbox button.btn::before {
 
 @media only screen and (max-width: 900px) {
   .header {
-    height: 100vh;
+    min-height: 100vh;
     margin: 1rem 3rem;
   }
 
@@ -525,32 +637,32 @@ main.contents .textbox button.btn::before {
     object-position: right;
   }
 
-  section.about {
-    height: 100vh;
+  section.Our-Service {
+    min-height: 100vh;
     margin: 1rem 3rem;
     align-items: center;
   }
 
-  section.about .heading-primary h1 {
+  section.Our-Service .heading-primary h1 {
     color: #fff;
     font-size: 3rem;
     text-align: center;
   }
 
-  section.about .textbox {
+  section.Our-Service .textbox {
     gap: 2rem;
     text-align: center;
     margin-top: 4rem;
     flex-direction: column;
   }
 
-  section.about .textbox .wrapper {
+  section.Our-Service .textbox .wrapper {
     align-items: center;
     gap: 3rem;
     text-align: center;
   }
 
-  section.about .textbox .wrapper img {
+  section.Our-Service .textbox .wrapper img {
     background-color: #fff;
     width: 3rem;
     height: 3rem;
@@ -560,14 +672,14 @@ main.contents .textbox button.btn::before {
     margin-bottom: 2rem;
   }
 
-  section.about .textbox .wrapper .heading-secondary {
+  section.Our-Service .textbox .wrapper .heading-secondary {
     color: #fff;
     font-size: 1.7rem;
     margin-bottom: 2rem;
     text-align: center;
   }
 
-  section.about .textbox .wrapper .paragraph {
+  section.Our-Service .textbox .wrapper .paragraph {
     color: #aea9a9;
     margin: 0 auto;
     width: 80%;
