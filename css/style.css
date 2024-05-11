@@ -232,7 +232,7 @@ section.Interior-Desgin .textbox.main .heading-primary {
 }
 
 section.Interior-Desgin .textbox.main .paragraph {
-  width: 33%;
+  width: 50%;
   margin: 0 auto;
   color: #c7c9db;
 }
@@ -521,8 +521,12 @@ section.Newsletter .textbox form.form .form.container button {
 /*SECTION INFO START*/
 footer.footer {
   min-width: 50vh;
-  background-image: 
-linear-gradient(to right, rgba(21, 19, 19, 0.53) , rgba(46, 46, 42, 0.53)), url("/asset/comp.png.5.jpg");
+  background-image: linear-gradient(
+      to right,
+      rgba(21, 19, 19, 0.53),
+      rgba(46, 46, 42, 0.53)
+    ),
+    url("/asset/comp.png.5.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -543,6 +547,7 @@ footer.footer .footer-container .footer-list-1 {
   margin: 2rem;
   flex: 1;
 }
+
 footer.footer .footer-container .footer-list-1 .icons {
   margin-bottom: 1.8rem;
 }
@@ -637,7 +642,19 @@ footer.footer .footer-container .icons {
   font-size: 2rem;
 }
 
-/*SECTION INFO END*/
+footer.foot{
+  margin-top: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+
+}
+
+
+footer.footer .foot .paragraph{
+  text-align: center;
+  border-top: 0.5px solid #aea9a9;
+}
+/*FOOTER END*/
 
 /*RESPONSIVE START*/
 @media only screen and (max-width: 1050px) {
@@ -832,8 +849,9 @@ footer.footer .footer-container .icons {
 
   section.Our-Service .textbox .wrapper img {
     background-color: #fff;
-    width: 3rem;
-    height: 3rem;
+    width: 5rem;
+    height: 5rem;
+    margin: 0 auto;
     padding: 1.2rem 1.2rem;
     border-radius: 50%;
     align-items: center;
@@ -845,13 +863,46 @@ footer.footer .footer-container .icons {
     font-size: 1.7rem;
     margin-bottom: 2rem;
     text-align: center;
+    margin: 0 auto;
+    padding: 2rem;
   }
 
   section.Our-Service .textbox .wrapper .paragraph {
     color: #aea9a9;
     margin: 0 auto;
     width: 80%;
+    text-align: center;
   }
+
+  section.Interior-Desgin {
+    margin: 4rem 2rem;
+    text-align: center;
+    min-height: 100vh;
+  }
+  
+  
+  section.Interior-Desgin .composition.info {
+    display: flex;
+    padding-top: 4rem;
+    margin-bottom: 3rem;
+    align-items: center;
+    gap: .5rem;
+  }
+
+  section.Dream-home {
+    display: flex;
+    margin: 10rem 2rem;
+  }
+
+  section.Dream-home figure.composition {
+    flex: 1;
+    height: 50rem;
+    width: 20rem;
+  }
+  
+  section.Dream-home figure.composition img {
+    height: 100%;
+    width: 90%;
 }
 
 /*RESPONSIVE END*/
