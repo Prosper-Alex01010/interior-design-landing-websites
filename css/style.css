@@ -60,7 +60,6 @@ a.nav-link {
   text-transform: capitalize;
   padding: 12px 20px;
   cursor: pointer;
-  transition: color 0.7s linear;
   position: relative;
   border-radius: 7px;
   font-size: 1.2rem;
@@ -116,7 +115,6 @@ a.nav-link {
   text-transform: capitalize;
   padding: 12px 20px;
   cursor: pointer;
-  transition: color 0.7s linear;
   position: relative;
   border-radius: 7px;
 }
@@ -265,7 +263,7 @@ section.Interior-Desgin button.btn.photo {
   text-transform: capitalize;
   padding: 12px 20px;
   cursor: pointer;
-  transition: color 0.7s linear;
+
   position: relative;
   border-radius: 7px;
 }
@@ -342,7 +340,6 @@ section.Dream-home .textbox button.btn {
   text-transform: capitalize;
   padding: 12px 20px;
   cursor: pointer;
-  transition: color 0.7s linear;
   position: relative;
   border-radius: 7px;
 }
@@ -365,8 +362,7 @@ section.Dream-home .textbox button.btn::before {
 /* SECTION SIMPLE-STEPS START */
 
 section.Simple-steps {
-
-  margin: 4rem 4rem;
+  margin: 1rem 4rem;
 }
 
 section.Simple-steps .container {
@@ -441,7 +437,7 @@ section.Simple-steps .container .list-container .icon-container .rocket-icon {
   color: #000000;
   background-color: #fff;
   border-radius: 50%;
-  padding: 7px 9px;
+  padding: 9px 10px;
 }
 
 section.Simple-steps
@@ -454,7 +450,7 @@ section.Simple-steps
   color: #000000;
   background-color: #fff;
   border-radius: 50%;
-  padding: 7px 9px;
+  padding: 9px 10px;
 }
 
 section.Simple-steps
@@ -467,10 +463,181 @@ section.Simple-steps
   color: #000000;
   background-color: #fff;
   border-radius: 50%;
-  padding: 7px 9px;
+  padding: 9px 10px;
+  align-items: center;
 }
 
 /* SECTION SIMPLE-STEPS END */
+
+/*SECTION NEWSLETTER START*/
+
+section.Newsletter {
+  min-height: 40vh;
+  margin: 2rem 4rem;
+}
+
+section.Newsletter .textbox {
+  text-align: center;
+}
+
+section.Newsletter .textbox .heading-primary {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 400;
+  margin: 1.5rem;
+}
+
+section.Newsletter .textbox .paragraph {
+  width: 35%;
+  margin: 0 auto;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+/*FORM START*/
+section.Newsletter .textbox form.form .form.container {
+  background-color: #fff;
+  display: inline-block;
+  padding: 7px 1rem;
+}
+
+section.Newsletter .textbox form.form .form.container input {
+  padding: 1rem 7rem;
+  border: none;
+}
+
+section.Newsletter .textbox form.form .form.container button {
+  padding: 1.5rem 4rem;
+  background-color: #2a3242;
+  border: none;
+  color: #fff;
+  border-radius: 1rem;
+}
+
+/*FORM END*/
+
+/*SECTION NEWSLETTER END*/
+
+/*SECTION INFO START*/
+footer.footer {
+  min-width: 50vh;
+  background-image: 
+linear-gradient(to right, rgba(21, 19, 19, 0.53) , rgba(46, 46, 42, 0.53)), url("/asset/comp.png.5.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+footer.footer .logo {
+  font-size: 4rem;
+  color: #fff;
+}
+
+footer.footer .footer-container {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+footer.footer .footer-container .footer-list-1 {
+  margin: 2rem;
+  flex: 1;
+}
+footer.footer .footer-container .footer-list-1 .icons {
+  margin-bottom: 1.8rem;
+}
+
+footer.footer .footer-container .footer-list-2 .textbox {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 1.8rem;
+}
+
+footer.footer .footer-container .footer-list-2 .textbox .heading-primary {
+  font-weight: 400;
+}
+
+footer.footer .footer-container .footer-list-2 .list {
+  color: #c7c9db;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+footer.footer .footer-container .footer-list-2 .list ul li {
+  margin-bottom: 2rem;
+  list-style: none;
+  font-size: 1.6rem;
+}
+
+footer.footer .footer-container .footer-list-2 {
+  margin: 2rem;
+  flex: 1;
+}
+
+footer.footer .footer-container .footer-list-3 .textbox {
+  color: #fff;
+  font-size: 1.8rem;
+  margin-bottom: 1.8rem;
+}
+
+footer.footer .footer-container .footer-list-3 .textbox .heading-primary {
+  font-weight: 400;
+}
+
+footer.footer .footer-container .footer-list-3 .list {
+  color: #c7c9db;
+  font-size: 1.8rem;
+  margin-bottom: 1.8rem;
+}
+
+footer.footer .footer-container .footer-list-3 .list ul li {
+  margin-bottom: 2rem;
+  list-style: none;
+  font-size: 1.6rem;
+}
+
+footer.footer .footer-container .footer-list-3 {
+  margin: 2rem;
+  flex: 1;
+}
+
+footer.footer .footer-container .footer-list-4 {
+  margin: 2rem;
+  flex: 1;
+}
+
+footer.footer .footer-container .footer-list-4 .textbox {
+  color: #fff;
+  font-size: 1.8rem;
+  margin-bottom: 1.8rem;
+}
+
+footer.footer .footer-container .footer-list-4 .textbox .heading-primary {
+  font-weight: 400;
+}
+
+footer.footer .footer-container .footer-list-4 .list {
+  color: #c7c9db;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+footer.footer .footer-container .footer-list-4 .list ul li {
+  margin-bottom: 2rem;
+  list-style: none;
+  font-size: 1.6rem;
+}
+
+footer.footer .footer-container .icons {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem;
+  color: #fff;
+  margin-left: 0;
+  font-size: 2rem;
+}
+
+/*SECTION INFO END*/
 
 /*RESPONSIVE START*/
 @media only screen and (max-width: 1050px) {
