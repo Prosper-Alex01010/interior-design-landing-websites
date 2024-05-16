@@ -1735,7 +1735,7 @@ footer.footer .foot .paragraph{
 
 @media only screen and (ma-width: 750px){
   .header .navigation figure.logo {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #fff;
   }
   
@@ -1768,13 +1768,14 @@ footer.footer .foot .paragraph{
   }
   
   .header .contents {
- flex-direction: column;
+    flex-direction: column;
     align-items: center;
     height: 80vh;
     margin-top: 3rem;
   }
   
   .header .contents .textbox {
+    flex-direction: column;
   }
   
   .header .contents .textbox .heading-primary {
@@ -1803,18 +1804,6 @@ footer.footer .foot .paragraph{
     border-radius: 7px;
   }
   
-  .btn:hover {
-    color: #fff;
-  }
-  
-  .btn::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-  }
   
   .header .contents .composition {
     flex: 1;
@@ -1845,8 +1834,9 @@ footer.footer .foot .paragraph{
     font-weight: 100;
     font-size: 1.2rem;
   }
-  
-  /*HEADER END*/
+  #checkbox:checked ~ .figure.logo{
+    background-color: #fff;
+  }
 }
 
 /*RESPONSIVE END*/
