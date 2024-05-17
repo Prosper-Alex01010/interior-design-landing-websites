@@ -19,7 +19,7 @@ button {
 }
 
 .paragraph {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color: #c7c9db;
   line-height: 1.6em;
 }
@@ -69,6 +69,7 @@ a.nav-link {
 .header .navigation .nav-list {
   align-items: center;
 }
+
 
 .header .contents {
   display: flex;
@@ -1733,7 +1734,21 @@ footer.footer .foot .paragraph{
   }
 }
 
-@media only screen and (ma-width: 750px){
+@media only screen and (max-width: 750px){
+  .paragraph {
+    font-size: 1.6rem;
+    color: #c7c9db;
+    line-height: 1.6em;
+  }
+
+  header.header{
+    min-height: 100vh;
+  }
+
+  .header .navigation{
+    padding: 2rem 2rem 5rem 2rem;
+  }
+
   .header .navigation figure.logo {
     font-size: 2rem;
     color: #fff;
@@ -1774,14 +1789,11 @@ footer.footer .foot .paragraph{
     margin-top: 3rem;
   }
   
-  .header .contents .textbox {
-    flex-direction: column;
-  }
   
   .header .contents .textbox .heading-primary {
     color: #fff;
-    font-size: 7rem;
-    align-items: center;
+    font-size: 4.5rem;
+    /* align-items: center; */
     font-weight: 500;
   }
   
@@ -1789,7 +1801,7 @@ footer.footer .foot .paragraph{
     /* font-size: 1.3rem; */
     /* color: #aea9a9; */
     margin-top: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     width: 75%;
     /* line-height: 2rem; */
   }
@@ -1806,26 +1818,30 @@ footer.footer .foot .paragraph{
   
   
   .header .contents .composition {
-    flex: 1;
-    /* height: 100%; */
+    margin: 4rem 2rem 4rem 0;
+    height: 400rem ;
+    width: 30rem;
+
+    
   }
   
   .header .contents .composition img {
     height: 100%;
     width: 100%;
     object-fit: contain;
-    object-position: right;
+
   }
   
   .header .contents .textbox.figure {
-    margin-top: 5rem;
+    display: flex;
+    margin-top: 2rem;
     color: #fff;
     display: flex;
-    gap: 6rem;
+    gap: 3rem;
   }
   
   .header .contents .textbox.figure .wrapper .figure {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-weight: 200;
     margin-bottom: 4px;
   }
@@ -1837,6 +1853,16 @@ footer.footer .foot .paragraph{
   #checkbox:checked ~ .figure.logo{
     background-color: #fff;
   }
+
+
+
+  section.Our-Service {
+    min-height: 100vh;
+    margin: 20rem 3rem 3rem 3rem;
+    align-items: center;
+  }
+
+
 }
 
 /*RESPONSIVE END*/
