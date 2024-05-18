@@ -10,7 +10,7 @@ html {
 
 body {
   box-sizing: border-box;
-  font-family: "Philosopher", sans-serif;
+  font-family: 'Philosopher', sans-serif;
   background-color: #2a3242;
 }
 
@@ -65,11 +65,9 @@ a.nav-link {
   font-size: 1.2rem;
 }
 
-
 .header .navigation .nav-list {
   align-items: center;
 }
-
 
 .header .contents {
   display: flex;
@@ -113,7 +111,7 @@ a.nav-link {
 }
 
 .btn::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -262,7 +260,7 @@ section.Interior-Desgin button.btn.photo:hover {
 }
 
 section.Interior-Desgin button.btn.photo::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -338,7 +336,7 @@ section.Dream-home .textbox button.btn:hover {
 }
 
 section.Dream-home .textbox button.btn::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -417,43 +415,17 @@ section.Simple-steps .container .list-container .wrapper .container .paragraph {
 }
 
 section.Simple-steps .container .list-container .icon-container {
+  font-size: 2rem;
+  color: #262949;
+  background-color: #fff;
+  border-radius: 50%;
   text-align: center;
-  /* border-left: 0.5px solid #aea9a9; */
-}
-
-section.Simple-steps .container .list-container .icon-container .rocket-icon {
-  font-size: 2.5rem;
-  color: #000000;
-  background-color: #fff;
-  border-radius: 50%;
-  padding: 9px 10px;
-}
-
-section.Simple-steps
-  .container
-  .list-container
-  .wrapper
-  .icon-container
-  .sunny-icon {
-  font-size: 2.5rem;
-  color: #000000;
-  background-color: #fff;
-  border-radius: 50%;
-  padding: 9px 10px;
-}
-
-section.Simple-steps
-  .container
-  .list-container
-  .wrapper
-  .icon-container
-  .flag-icon {
-  font-size: 2.5rem;
-  color: #000000;
-  background-color: #fff;
-  border-radius: 50%;
-  padding: 9px 10px;
+  height: 3.5rem;
+  width: 3.5rem;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  flex-shrink: 0;
 }
 
 /* SECTION SIMPLE-STEPS END */
@@ -496,6 +468,7 @@ section.Newsletter .textbox form.form .form.container input {
 }
 
 section.Newsletter .textbox form.form .form.container button {
+  position: relative;
   padding: 1.5rem 4rem;
   background-color: #2a3242;
   border: none;
@@ -515,7 +488,7 @@ footer.footer {
       rgba(21, 19, 19, 0.53),
       rgba(46, 46, 42, 0.53)
     ),
-    url("/asset/comp.png.5.jpg");
+    url('/asset/comp.png.5.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -631,15 +604,13 @@ footer.footer .footer-container .icons {
   font-size: 2rem;
 }
 
-footer.foot{
+footer.foot {
   margin-top: 3rem;
   margin-left: 3rem;
   margin-right: 3rem;
-
 }
 
-
-footer.footer .foot .paragraph{
+footer.footer .foot .paragraph {
   text-align: center;
   color: #c7c9db;
 }
@@ -868,14 +839,13 @@ footer.footer .foot .paragraph{
     text-align: center;
     min-height: 100vh;
   }
-  
-  
+
   section.Interior-Desgin .composition.info {
     display: flex;
     padding-top: 4rem;
     margin-bottom: 3rem;
     align-items: center;
-    gap: .5rem;
+    gap: 0.5rem;
   }
 
   section.Dream-home {
@@ -883,22 +853,21 @@ footer.footer .foot .paragraph{
     margin: 10rem 4rem;
   }
 
-  
   section.Dream-home .textbox {
     flex: 1;
   }
-  
+
   section.Dream-home figure.composition {
     flex: 1;
     height: 45rem;
     width: 20rem;
   }
-  
+
   section.Dream-home figure.composition img {
     height: 100%;
     width: 90%;
   }
-  
+
   section.Dream-home .textbox .heading-primary {
     color: #fff;
     font-size: 3.5rem;
@@ -907,12 +876,12 @@ footer.footer .foot .paragraph{
     margin-bottom: 1.5rem;
     line-height: 5rem;
   }
-  
+
   section.Dream-home .textbox .home-list li {
     color: #c7c9db;
     border-bottom: 0.5px solid #aea9a9;
   }
-  
+
   section.Dream-home .textbox .home-list {
     font-size: 1.5rem;
     margin: 2rem 0;
@@ -920,7 +889,7 @@ footer.footer .foot .paragraph{
     color: #c7c9db;
     list-style: none;
   }
-  
+
   section.Dream-home .textbox .paragraph {
     font-size: 1.3rem;
     color: #c7c9db;
@@ -928,7 +897,7 @@ footer.footer .foot .paragraph{
     width: 75%;
     line-height: 2rem;
   }
-  
+
   section.Dream-home .textbox button.btn {
     background-color: none;
     border: 1px solid #000000;
@@ -938,28 +907,27 @@ footer.footer .foot .paragraph{
     position: relative;
     border-radius: 7px;
   }
-  
 
   section.Dream-home figure.composition {
     flex: 1;
     height: 50rem;
     width: 20rem;
   }
-  
+
   section.Dream-home figure.composition img {
-   height: 100%;
+    height: 100%;
     width: 90%;
   }
 
   section.Simple-steps {
     margin: 6rem 4rem;
   }
-  
+
   section.Simple-steps .container {
     display: flex;
     gap: 1rem;
   }
-  
+
   section.Simple-steps .container .textbox .heading-primary {
     color: #fff;
     font-size: 3.2rem;
@@ -968,38 +936,38 @@ footer.footer .foot .paragraph{
     width: 100%;
     margin-bottom: 1.5rem;
   }
-  
+
   section.Simple-steps .container .textbox {
     flex: 1;
   }
-  
+
   section.Simple-steps .container figure.composition {
     flex: 1;
     height: 45rem;
     width: 25rem;
     flex-shrink: none;
   }
-  
+
   section.Simple-steps .container figure.composition img {
     height: 100%;
     width: 90%;
   }
-  
+
   section.Simple-steps .container .list-container {
     align-items: center;
   }
-  
+
   section.Simple-steps .container .list-container li {
     display: flex;
-    gap: .5rem;
+    gap: 0.5rem;
     align-items: center;
   }
-  
+
   section.Simple-steps .container .list-container .wrapper .container {
     margin: 1.5rem;
     flex-direction: column;
   }
-  
+
   section.Simple-steps
     .container
     .list-container
@@ -1009,20 +977,25 @@ footer.footer .foot .paragraph{
     color: #fff;
     font-size: 2rem;
   }
-  
-  section.Simple-steps .container .list-container .wrapper .container .paragraph {
+
+  section.Simple-steps
+    .container
+    .list-container
+    .wrapper
+    .container
+    .paragraph {
     font-size: 1.3rem;
     color: #c7c9db;
     margin-top: 0;
     width: 75%;
     line-height: 2rem;
   }
-  
+
   section.Simple-steps .container .list-container .icon-container {
     text-align: center;
     /* border-left: 0.5px solid #aea9a9; */
   }
-  
+
   section.Simple-steps .container .list-container .icon-container .rocket-icon {
     font-size: 2.3rem;
     color: #000000;
@@ -1030,7 +1003,7 @@ footer.footer .foot .paragraph{
     border-radius: 50%;
     padding: 10px 12px;
   }
-  
+
   section.Simple-steps
     .container
     .list-container
@@ -1043,7 +1016,7 @@ footer.footer .foot .paragraph{
     border-radius: 50%;
     padding: 10px 12px;
   }
-  
+
   section.Simple-steps
     .container
     .list-container
@@ -1062,38 +1035,38 @@ footer.footer .foot .paragraph{
     min-height: 40vh;
     margin: 4rem 4rem;
   }
-  
+
   section.Newsletter .textbox {
     text-align: center;
   }
-  
+
   section.Newsletter .textbox .heading-primary {
     color: #fff;
     font-size: 4rem;
     font-weight: 400;
     margin: 1.5rem;
   }
-  
+
   section.Newsletter .textbox .paragraph {
     width: 50%;
     margin: 0 auto;
     font-size: 1.3rem;
     margin-bottom: 3rem;
   }
-  
+
   /*FORM START*/
   section.Newsletter .textbox form.form .form.container {
     background-color: #fff;
-   
+
     padding: 7px 1rem;
     border-radius: 1rem;
   }
-  
+
   section.Newsletter .textbox form.form .form.container input {
     padding: 1rem 7rem;
     border: 1px solid #fff;
   }
-  
+
   section.Newsletter .textbox form.form .form.container button {
     padding: 1.5rem 4rem;
     background-color: #2a3242;
@@ -1109,172 +1082,168 @@ footer.footer .foot .paragraph{
         rgba(21, 19, 19, 0.53),
         rgba(46, 46, 42, 0.53)
       ),
-      url("/asset/comp.png.5.jpg");
+      url('/asset/comp.png.5.jpg');
     background-size: cover;
     background-position: center;
   }
-  
+
   footer.footer .logo {
     font-size: 4rem;
     color: #fff;
   }
-  
+
   footer.footer .footer-container {
     margin-left: 2rem;
     margin-right: 2rem;
     display: flex;
     gap: 1rem;
   }
-  
+
   footer.footer .footer-container .footer-list-1 {
     margin: 2rem;
     flex: 1;
   }
 
-  footer.footer .footer-container .footer-list-1 .footer.paragraph{
+  footer.footer .footer-container .footer-list-1 .footer.paragraph {
     font-size: 1.3rem;
     line-height: 2.5rem;
   }
-  
+
   footer.footer .footer-container .footer-list-1 .icons {
     margin-bottom: 1.5rem;
   }
-  
+
   footer.footer .footer-container .footer-list-2 .textbox {
     color: #fff;
     font-size: 1.5rem;
     margin-bottom: 1.1.6rem;
   }
-  
+
   footer.footer .footer-container .footer-list-2 .textbox .heading-primary {
     font-weight: 400;
   }
-  
+
   footer.footer .footer-container .footer-list-2 .list {
     color: #c7c9db;
     font-size: 1.8rem;
     margin-bottom: 1rem;
   }
-  
+
   footer.footer .footer-container .footer-list-2 .list ul li {
     margin-bottom: 1.5rem;
     list-style: none;
     font-size: 1.3rem;
   }
-  
+
   footer.footer .footer-container .footer-list-2 {
     margin: 1.5rem;
     flex: 1;
   }
-  
+
   footer.footer .footer-container .footer-list-3 .textbox {
     color: #fff;
     font-size: 1.5rem;
     margin-bottom: 1.6rem;
   }
-  
+
   footer.footer .footer-container .footer-list-3 .textbox .heading-primary {
     font-weight: 400;
   }
-  
+
   footer.footer .footer-container .footer-list-3 .list {
     color: #c7c9db;
     font-size: 1.8rem;
     margin-bottom: 1.8rem;
   }
-  
+
   footer.footer .footer-container .footer-list-3 .list ul li {
     margin-bottom: 1.5rem;
     list-style: none;
     font-size: 1.3rem;
   }
-  
+
   footer.footer .footer-container .footer-list-3 {
     margin: 1.5rem;
     flex: 1;
   }
-  
+
   footer.footer .footer-container .footer-list-4 {
     margin: 1.5rem;
     flex: 1;
   }
-  
+
   footer.footer .footer-container .footer-list-4 .textbox {
     color: #fff;
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
   }
-  
+
   footer.footer .footer-container .footer-list-4 .textbox .heading-primary {
     font-weight: 400;
   }
-  
+
   footer.footer .footer-container .footer-list-4 .list {
     color: #c7c9db;
     font-size: 1.8rem;
     margin-bottom: 1rem;
   }
-  
+
   footer.footer .footer-container .footer-list-4 .list ul li {
     margin-bottom: 2rem;
     list-style: none;
     font-size: 1.2rem;
   }
-  
+
   footer.footer .footer-container .icons {
     display: flex;
-    gap: .5rem;
+    gap: 0.5rem;
     margin: 2rem;
     color: #fff;
     margin-left: 0;
     font-size: 2rem;
   }
-  
-  footer.foot{
+
+  footer.foot {
     margin-top: 3rem;
     margin-left: 3rem;
     margin-right: 3rem;
-  
   }
-  
-  
-  footer.footer .foot .paragraph{
+
+  footer.footer .foot .paragraph {
     text-align: center;
     color: #c7c9db;
   }
-
 }
 
-
-@media only screen and(max-width: 780px){
+@media only screen and(max-width: 780px) {
   .header {
     min-height: 100vh;
     margin: 1rem 4rem;
   }
-  
+
   .header .navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  
+
   .header .navigation .logo {
     font-size: 3rem;
     color: #fff;
   }
-  
+
   .header .navigation ul {
     display: flex;
     list-style: none;
     gap: 8rem;
     font-size: 1.2rem;
   }
-  
+
   .header .navigation li,
   a.nav-link {
     color: #c7c9db;
   }
-  
+
   .header .navigation button.btn {
     background-color: none;
     border: 1px solid #000000;
@@ -1285,30 +1254,29 @@ footer.footer .foot .paragraph{
     border-radius: 7px;
     font-size: 1.2rem;
   }
-  
-  
+
   .header .navigation .nav-list {
     align-items: center;
   }
-  
+
   .header .contents {
     display: flex;
     align-items: center;
     height: 60vh;
     margin-top: 1.5rem;
   }
-  
+
   .header .contents .textbox {
     flex: 1;
   }
-  
+
   .header .contents .textbox .heading-primary {
     color: #fff;
     font-size: 6rem;
     align-items: center;
     font-weight: 500;
   }
-  
+
   .paragraph-1 {
     /* font-size: 1.3rem; */
 
@@ -1318,7 +1286,7 @@ footer.footer .foot .paragraph{
     width: 75%;
     /* line-height: 2rem; */
   }
-  
+
   .header .contents .textbox button.btn {
     background-color: none;
     border: 1px solid #000000;
@@ -1328,32 +1296,32 @@ footer.footer .foot .paragraph{
     position: relative;
     border-radius: 10px;
   }
-  
+
   .header .contents .composition {
     flex: 1;
     /* height: 100%; */
   }
-  
+
   .header .contents .composition img {
     height: 100%;
     width: 100%;
     object-fit: contain;
     object-position: right;
   }
-  
+
   .header .contents .textbox.figure {
     margin-top: 5rem;
     color: #fff;
     display: flex;
     gap: 3rem;
   }
-  
+
   .header .contents .textbox.figure .wrapper .figure {
     font-size: 2.5rem;
     font-weight: 200;
     margin-bottom: 4px;
   }
-  
+
   .header .contents .textbox.figure .wrapper .heading-secdondary {
     font-weight: 100;
     font-size: 1.2rem;
@@ -1403,21 +1371,20 @@ footer.footer .foot .paragraph{
     padding: 2rem;
   }
 
-  section.Our-Service .textbox .wrapper p.paragraph  {
+  section.Our-Service .textbox .wrapper p.paragraph {
     color: #c7c9db;
     margin: 0 auto;
     width: 20%;
     text-align: center;
     font-size: 1.5rem;
   }
-  
+
   section.Interior-Desgin {
     margin: 4rem 2rem;
     text-align: center;
     min-height: 100vh;
   }
 
-  
   section.Interior-Desgin .composition.info {
     display: flex;
     padding-top: 4rem;
@@ -1458,14 +1425,13 @@ footer.footer .foot .paragraph{
     height: 100%;
     width: 90%;
   }
-  
-  
+
   section.Interior-Desgin .composition.info {
     display: flex;
     padding-top: 4rem;
     margin-bottom: 3rem;
     align-items: center;
-    gap: .5rem;
+    gap: 0.5rem;
   }
 
   section.Interior-Desgin {
@@ -1473,65 +1439,64 @@ footer.footer .foot .paragraph{
     text-align: center;
     min-height: 100vh;
   }
-  
+
   section.Interior-Desgin .textbox.main {
     align-items: center;
   }
-  
+
   section.Interior-Desgin .textbox.main .heading-primary {
     color: #fff;
     font-size: 3rem;
     /* text-align: left; */
     margin-bottom: 2.5rem;
   }
-  
+
   section.Interior-Desgin .textbox.main .paragraph {
     width: 70%;
     margin: 0 auto;
     color: #c7c9db;
   }
-  
+
   section.Interior-Desgin .composition.info {
     display: flex;
     padding-top: 4rem;
     margin-bottom: 3rem;
     align-items: center;
-    gap: .3rem;
+    gap: 0.3rem;
   }
-  
+
   section.Interior-Desgin .composition.info .image {
     flex: 1;
     height: 40rem;
     object-fit: cover;
   }
-  
+
   section.Interior-Desgin .composition.info .image img {
     height: 100%;
     width: 100%;
     object-fit: cover;
   }
-  
+
   section.Dream-home {
     display: flex;
     margin: 10rem 2.5rem;
   }
 
-  
   section.Dream-home .textbox {
     flex: 1;
   }
-  
+
   section.Dream-home figure.composition {
     flex: 1;
     height: 45rem;
     width: 18rem;
   }
-  
+
   section.Dream-home figure.composition img {
     height: 100%;
     width: 90%;
   }
-  
+
   section.Dream-home .textbox .heading-primary {
     color: #fff;
     font-size: 2.3rem;
@@ -1540,12 +1505,12 @@ footer.footer .foot .paragraph{
     margin-bottom: 1.3rem;
     line-height: 4.5rem;
   }
-  
+
   section.Dream-home .textbox .home-list li {
     color: #c7c9db;
     border-bottom: 0.5px solid #aea9a9;
   }
-  
+
   section.Dream-home .textbox .home-list {
     font-size: 1.2rem;
     margin: 2rem 0;
@@ -1553,7 +1518,7 @@ footer.footer .foot .paragraph{
     color: #c7c9db;
     list-style: none;
   }
-  
+
   section.Dream-home .textbox .paragraph {
     font-size: 1.2rem;
     color: #c7c9db;
@@ -1561,7 +1526,7 @@ footer.footer .foot .paragraph{
     width: 80%;
     line-height: 2rem;
   }
-  
+
   section.Dream-home .textbox button.btn {
     background-color: none;
     border: 1px solid #000000;
@@ -1571,26 +1536,25 @@ footer.footer .foot .paragraph{
     position: relative;
     border-radius: 7px;
   }
-  
 
   section.Dream-home figure.composition {
     flex: 1;
     height: 50rem;
     width: 20rem;
   }
-  
+
   section.Dream-home figure.composition img {
-   height: 100%;
+    height: 100%;
     width: 90%;
   }
   section.Simple-steps {
     margin: 1rem 2rem;
   }
-  
+
   section.Simple-steps .container {
     display: flex;
   }
-  
+
   section.Simple-steps .container .textbox .heading-primary {
     color: #fff;
     font-size: 2rem;
@@ -1600,37 +1564,37 @@ footer.footer .foot .paragraph{
     width: 85%;
     margin-bottom: 3rem;
   }
-  
+
   section.Simple-steps .container .textbox {
     flex: 1;
   }
-  
+
   section.Simple-steps .container figure.composition {
     flex: 1;
     height: 50rem;
     width: 25rem;
   }
-  
+
   section.Simple-steps .container figure.composition img {
     height: 100%;
     width: 90%;
   }
-  
+
   section.Simple-steps .container .list-container {
     align-items: center;
   }
-  
+
   section.Simple-steps .container .list-container li {
     display: flex;
     gap: 1rem;
     align-items: center;
   }
-  
+
   section.Simple-steps .container .list-container .wrapper .container {
     margin: 2rem;
     flex-direction: column;
   }
-  
+
   section.Simple-steps
     .container
     .list-container
@@ -1640,20 +1604,25 @@ footer.footer .foot .paragraph{
     color: #fff;
     font-size: 2rem;
   }
-  
-  section.Simple-steps .container .list-container .wrapper .container .paragraph {
+
+  section.Simple-steps
+    .container
+    .list-container
+    .wrapper
+    .container
+    .paragraph {
     font-size: 1.1rem;
     color: #c7c9db;
     margin-top: 1rem;
     width: 75%;
     line-height: 2rem;
   }
-  
+
   section.Simple-steps .container .list-container .icon-container {
     text-align: center;
     /* border-left: 0.5px solid #aea9a9; */
   }
-  
+
   section.Simple-steps .container .list-container .icon-container .rocket-icon {
     font-size: 2.3rem;
     color: #000000;
@@ -1661,7 +1630,7 @@ footer.footer .foot .paragraph{
     border-radius: 50%;
     padding: 9px 10px;
   }
-  
+
   section.Simple-steps
     .container
     .list-container
@@ -1674,7 +1643,7 @@ footer.footer .foot .paragraph{
     border-radius: 50%;
     padding: 9px 10px;
   }
-  
+
   section.Simple-steps
     .container
     .list-container
@@ -1687,44 +1656,44 @@ footer.footer .foot .paragraph{
     border-radius: 50%;
     padding: 9px 10px;
     align-items: center;
-  }  
+  }
 
   section.Newsletter {
     min-height: 40vh;
     margin: 4rem 4rem;
   }
-  
+
   section.Newsletter .textbox {
     text-align: center;
   }
-  
+
   section.Newsletter .textbox .heading-primary {
     color: #fff;
     font-size: 2.5rem;
     font-weight: 400;
     margin: 1.5rem;
   }
-  
+
   section.Newsletter .textbox .paragraph {
     width: 50%;
     margin: 0 auto;
     font-size: 1.3rem;
     margin-bottom: 3rem;
   }
-  
+
   /*FORM START*/
   section.Newsletter .textbox form.form .form.container {
     background-color: #fff;
-   
+
     padding: 7px 1rem;
     border-radius: 1rem;
   }
-  
+
   section.Newsletter .textbox form.form .form.container input {
     padding: 1rem 7rem;
     border: 1px solid #fff;
   }
-  
+
   section.Newsletter .textbox form.form .form.container button {
     padding: 1.5rem 4rem;
     background-color: #2a3242;
@@ -1734,18 +1703,18 @@ footer.footer .foot .paragraph{
   }
 }
 
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 750px) {
   .paragraph {
     font-size: 1.6rem;
     color: #c7c9db;
     line-height: 1.6em;
   }
 
-  header.header{
+  header.header {
     min-height: 100vh;
   }
 
-  .header .navigation{
+  .header .navigation {
     padding: 2rem 2rem 5rem 2rem;
   }
 
@@ -1753,19 +1722,19 @@ footer.footer .foot .paragraph{
     font-size: 2rem;
     color: #fff;
   }
-  
+
   .header .navigation ul {
     display: flex;
     list-style: none;
     gap: 8rem;
     font-size: 1.2rem;
   }
-  
+
   .header .navigation li,
   a.nav-link {
     color: #c7c9db;
   }
-  
+
   .header .navigation button.btn {
     background-color: none;
     border: 1px solid #000000;
@@ -1776,27 +1745,25 @@ footer.footer .foot .paragraph{
     border-radius: 7px;
     font-size: 1.2rem;
   }
-  
-  
+
   .header .navigation .nav-list {
     align-items: center;
   }
-  
+
   .header .contents {
     flex-direction: column;
     align-items: center;
     height: 80vh;
     margin-top: 3rem;
   }
-  
-  
+
   .header .contents .textbox .heading-primary {
     color: #fff;
     font-size: 4.5rem;
     /* align-items: center; */
     font-weight: 500;
   }
-  
+
   .paragraph-1 {
     /* font-size: 1.3rem; */
     /* color: #aea9a9; */
@@ -1805,7 +1772,7 @@ footer.footer .foot .paragraph{
     width: 75%;
     /* line-height: 2rem; */
   }
-  
+
   .header .contents .textbox button.btn {
     background-color: none;
     border: 1px solid #000000;
@@ -1815,23 +1782,18 @@ footer.footer .foot .paragraph{
     position: relative;
     border-radius: 7px;
   }
-  
-  
-  .header .contents .composition {
-    margin: 4rem 2rem 4rem 0;
-    height: 400rem ;
-    width: 30rem;
 
-    
+  .header .contents .composition {
+    margin: 4rem 0;
+    height: 400rem;
   }
-  
+
   .header .contents .composition img {
     height: 100%;
     width: 100%;
-    object-fit: contain;
-
+    object-fit: cover;
   }
-  
+
   .header .contents .textbox.figure {
     display: flex;
     margin-top: 2rem;
@@ -1839,30 +1801,26 @@ footer.footer .foot .paragraph{
     display: flex;
     gap: 3rem;
   }
-  
+
   .header .contents .textbox.figure .wrapper .figure {
     font-size: 2.5rem;
     font-weight: 200;
     margin-bottom: 4px;
   }
-  
+
   .header .contents .textbox.figure .wrapper .heading-secdondary {
     font-weight: 100;
     font-size: 1.2rem;
   }
-  #checkbox:checked ~ .figure.logo{
+  #checkbox:checked ~ .figure.logo {
     background-color: #fff;
   }
-
-
 
   section.Our-Service {
     min-height: 100vh;
     margin: 20rem 3rem 3rem 3rem;
     align-items: center;
   }
-
-
 }
 
 /*RESPONSIVE END*/
