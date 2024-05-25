@@ -60,7 +60,7 @@ a.nav-link {
   text-transform: capitalize;
   padding: 12px 20px;
   cursor: pointer;
-  position: relative;
+
   border-radius: 7px;
   font-size: 1.2rem;
 }
@@ -251,7 +251,6 @@ section.Interior-Desgin button.btn.photo {
   padding: 12px 20px;
   cursor: pointer;
 
-  position: relative;
   border-radius: 7px;
 }
 
@@ -336,8 +335,6 @@ section.Dream-home .textbox button.btn:hover {
 }
 
 section.Dream-home .textbox button.btn::before {
-  content: '';
-  position: absolute;
   left: 0;
   top: 0;
   height: 100%;
@@ -737,7 +734,7 @@ footer.footer .foot .paragraph {
     padding: 10px 15px;
     cursor: pointer;
     transition: color 0.7s linear;
-    position: relative;
+position: absolute;
     border-radius: 7px;
     font-size: 1.2rem;
   }
@@ -1293,7 +1290,7 @@ footer.footer .foot .paragraph {
     text-transform: capitalize;
     padding: 10px 17px;
     cursor: pointer;
-    position: relative;
+
     border-radius: 10px;
   }
 
