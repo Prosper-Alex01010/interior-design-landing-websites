@@ -18,6 +18,10 @@ button {
   border: none;
 }
 
+.btn {
+  position: relative;
+}
+
 .paragraph {
   font-size: 1.8rem;
   color: #c7c9db;
@@ -245,6 +249,7 @@ section.Interior-Desgin .composition.info .image img {
 }
 
 section.Interior-Desgin button.btn.photo {
+  position: relative;
   /* left: 45%; */
   background-color: none;
   text-transform: capitalize;
