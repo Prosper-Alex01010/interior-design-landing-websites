@@ -10,7 +10,7 @@ html {
 
 body {
   box-sizing: border-box;
-  font-family: 'Philosopher', sans-serif;
+  font-family: "Philosopher", sans-serif;
   background-color: #2a3242;
 }
 
@@ -39,6 +39,14 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* .header .navigation #checkbox{
+  display: none;
+} */
+
+#checkbox {
+  display: none;
 }
 
 .header .navigation .logo {
@@ -73,6 +81,9 @@ a.nav-link {
   align-items: center;
 }
 
+.header .navigation .nav-action .btn {
+  margin-right: 1.5rem;
+}
 .header .contents {
   display: flex;
   align-items: center;
@@ -115,7 +126,7 @@ a.nav-link {
 }
 
 .btn::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -151,6 +162,9 @@ a.nav-link {
 .header .contents .textbox.figure .wrapper .heading-secdondary {
   font-weight: 100;
   font-size: 1.2rem;
+}
+
+#checkbox:checked ~ .navigation .nav-list {
 }
 
 /*HEADER END*/
@@ -264,7 +278,7 @@ section.Interior-Desgin button.btn.photo:hover {
 }
 
 section.Interior-Desgin button.btn.photo::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -490,7 +504,7 @@ footer.footer {
       rgba(21, 19, 19, 0.53),
       rgba(46, 46, 42, 0.53)
     ),
-    url('/asset/comp.png.5.jpg');
+    url("/asset/comp.png.5.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -739,7 +753,7 @@ footer.footer .foot .paragraph {
     padding: 10px 15px;
     cursor: pointer;
     transition: color 0.7s linear;
-position: absolute;
+    position: absolute;
     border-radius: 7px;
     font-size: 1.2rem;
   }
@@ -1084,7 +1098,7 @@ position: absolute;
         rgba(21, 19, 19, 0.53),
         rgba(46, 46, 42, 0.53)
       ),
-      url('/asset/comp.png.5.jpg');
+      url("/asset/comp.png.5.jpg");
     background-size: cover;
     background-position: center;
   }
@@ -1721,14 +1735,14 @@ position: absolute;
   }
 
   .header .navigation figure.logo {
-    font-size: 2rem;
+    font-size: 3rem;
     color: #fff;
   }
 
   .header .navigation ul {
     display: flex;
     list-style: none;
-    gap: 8rem;
+    gap: 4rem;
     font-size: 1.2rem;
   }
 
@@ -1823,6 +1837,97 @@ position: absolute;
     margin: 20rem 3rem 3rem 3rem;
     align-items: center;
   }
+}
+
+@media only screen and (max-width: 700px) {
+  .header {
+    min-height: 100vh;
+    margin: 1rem 2rem;
+  }
+
+  .header .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header .navigation .logo {
+    font-size: 5rem;
+    color: #fff;
+  }
+
+  .header .navigation ul {
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+    font-size: 1.2rem;
+  }
+
+  .header .navigation li,
+  a.nav-link {
+    color: #c7c9db;
+  }
+
+  .header .navigation button.btn {
+    background-color: none;
+    border: 1px solid #000000;
+    text-transform: capitalize;
+    padding: 10px 15px;
+    cursor: pointer;
+
+    border-radius: 7px;
+    font-size: 1.2rem;
+  }
+
+  .header .navigation .nav-list {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(42, 50, 66, 0.8);
+    backdrop-filter: blur(1.5px);
+    height: 100vh;
+    padding: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    width: min(100vw, 35rem);
+    gap: 4rem;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    z-index: 100;
+  }
+
+  .navigation .nav-button {
+    z-index: 101;
+    position: relative;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+
+  .navigation .nav-button span.close {
+    display: none;
+  }
+
+  .navigation .nav-button span.open {
+    display: flex;
+  }
+  .nav-action {
+    display: flex;
+    align-items: center;
+  }
+
+  .header #checkbox:checked ~ .navigation .nav-list {
+    transform: translateX(0);
+  }
+
+  .header #checkbox:checked ~ .navigation .nav-action .nav-button span.open {
+    display: none;
+  }
+}
+
+.header #checkbox:checked ~ .navigation .nav-action .nav-button span.close {
+  display: flex;
 }
 
 /*RESPONSIVE END*/
