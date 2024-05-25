@@ -49,6 +49,14 @@ button {
   display: none;
 }
 
+.navigation .nav-button span.open {
+  display: none;
+}
+
+.navigation .nav-button span.close {
+  display: none;
+}
+
 .header .navigation .logo {
   font-size: 5rem;
   color: #fff;
