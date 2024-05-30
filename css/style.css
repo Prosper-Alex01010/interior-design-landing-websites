@@ -861,7 +861,6 @@ footer.footer .foot .paragraph {
   section.Interior-Desgin {
     margin: 4rem 2rem;
     text-align: center;
-    min-height: 100vh;
   }
 
   section.Interior-Desgin .composition.info {
@@ -1480,7 +1479,6 @@ footer.footer .foot .paragraph {
     margin: 0 auto;
     color: #c7c9db;
   }
-
   section.Interior-Desgin .composition.info {
     display: flex;
     padding-top: 4rem;
@@ -1503,7 +1501,7 @@ footer.footer .foot .paragraph {
 
   section.Dream-home {
     display: flex;
-    margin: 10rem 2.5rem;
+    margin: 5rem 2.5rem;
   }
 
   section.Dream-home .textbox {
@@ -1842,8 +1840,19 @@ footer.footer .foot .paragraph {
 
   section.Our-Service {
     min-height: 100vh;
-    margin: 20rem 3rem 3rem 3rem;
+    margin: 36rem 3rem 3rem 3rem;
     align-items: center;
+  }
+
+  section.Interior-Desgin {
+    margin: 8rem 2rem 3rem 2rem;
+    text-align: center;
+  }
+
+  section.Interior-Desgin .textbox.main .paragraph {
+    width: 80%;
+    margin: 0 auto;
+    color: #c7c9db;
   }
 }
 
@@ -1932,10 +1941,160 @@ footer.footer .foot .paragraph {
   .header #checkbox:checked ~ .navigation .nav-action .nav-button span.open {
     display: none;
   }
-}
 
-.header #checkbox:checked ~ .navigation .nav-action .nav-button span.close {
-  display: flex;
+  .header #checkbox:checked ~ .navigation .nav-action .nav-button span.close {
+    display: flex;
+  }
+
+  section.Interior-Desgin .composition.info {
+    flex-direction: column;
+    padding-top: 4rem;
+    margin: 3rem;
+    align-items: center;
+    gap: 4rem;
+  }
+  section.Interior-Desgin .composition.info .image {
+    height: 30rem;
+    width: 40rem;
+    object-fit: cover;
+  }
+
+  section.Interior-Desgin .composition.info .image img {
+    height: 100%;
+    width: 100%;
+  }
+
+  section.Interior-Desgin .composition.info .image-2 {
+    height: 30rem;
+    width: 30rem;
+    object-fit: cover;
+  }
+
+  section.Interior-Desgin .composition.info .image-2 img {
+    height: 100%;
+    width: 100%;
+  }
+
+  section.Interior-Desgin .composition.info .image-3 {
+    height: 30rem;
+    width: 30rem;
+    object-fit: cover;
+  }
+
+  section.Interior-Desgin .composition.info .image-3 img {
+    height: 100%;
+    width: 100%;
+  }
+
+  section.Dream-home {
+    flex-direction: column-reverse;
+    margin: 10rem 2rem;
+  }
+
+  section.Dream-home .textbox {
+    flex: 1;
+  }
+
+  section.Dream-home figure.composition {
+    flex: 1;
+    height: 30rem;
+    width: 68rem;
+    margin-top: 5rem;
+  }
+
+  section.Simple-steps .container {
+flex-direction: column;
+  }
+
+  section.Simple-steps .container .textbox .heading-primary {
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    line-height: 4.5rem;
+    width: 85%;
+    margin-bottom: 3rem;
+  }
+
+  section.Simple-steps .container .textbox {
+    margin-bottom: 3rem;
+  }
+
+  section.Simple-steps .container figure.composition {
+
+    height: 40rem;
+    width: 60rem;
+    margin-bottom: 4rem;
+  }
+
+  section.Simple-steps .container figure.composition img {
+    height: 100%;
+    width: 100%;
+  }
+
+  section.Simple-steps .container .list-container {
+    align-items: center;
+  }
+
+  section.Simple-steps .container .list-container li {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  section.Simple-steps .container .list-container .wrapper .container {
+    margin: 2rem;
+    flex-direction: column;
+  }
+
+  section.Simple-steps
+    .container
+    .list-container
+    .wrapper
+    .container
+    .heading-secondary {
+    color: #fff;
+    font-size: 2.5rem;
+  }
+
+  section.Simple-steps
+    .container
+    .list-container
+    .wrapper
+    .container
+    .paragraph {
+    font-size: 1.6rem;
+    color: #c7c9db;
+    margin-top: 1rem;
+    width: 75%;
+    line-height: 2rem;
+  }
+
+  section.Simple-steps .container .list-container .icon-container {
+    text-align: center;
+    /* border-left: 0.5px solid #aea9a9; */
+  }
+
+  section.Simple-steps .container .list-container .icon-container {
+    font-size: 2.5rem;
+    color: #262949;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    height: 4.5rem;
+    width: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  section.Newsletter .textbox .paragraph {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+  }
 }
 
 /*RESPONSIVE END*/
