@@ -1960,6 +1960,7 @@ footer.footer .foot .paragraph {
     align-items: center;
     gap: 4rem;
   }
+
   section.Interior-Desgin .composition.info .image {
     height: 30rem;
     width: 40rem;
@@ -2234,6 +2235,113 @@ footer.footer .foot .paragraph {
     margin-top: 1rem;
     width: 75%;
     line-height: 2rem;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+
+  section.Interior-Desgin .textbox.main .heading-primary {
+    color: #fff;
+    font-size: 3.2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  section.Interior-Desgin .textbox.main .paragraph {
+    width: 90%;
+    margin: 0 auto;
+    color: #c7c9db;
+  }
+
+  section.Interior-Desgin .composition.info {
+    padding-top: 2rem;
+    margin: 1.5rem;
+  }
+
+  section.Interior-Desgin .composition.info .image {
+    height: 25rem;
+    width: 35rem;
+    object-fit: cover;
+  }
+
+  section.Interior-Desgin .composition.info .image img {
+    height: 100%;
+    width: 100%;
+  }
+
+  section.Simple-steps .container .textbox .heading-primary {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    line-height: 4.5rem;
+    width: 95%;
+    margin-bottom: 3rem;
+  }
+
+  section.Simple-steps
+    .container
+    .list-container
+    .wrapper
+    .container
+    .heading-secondary {
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  section.Simple-steps
+    .container
+    .list-container
+    .wrapper
+    .container
+    .paragraph {
+    font-size: 1.4rem;
+    color: #c7c9db;
+    margin-top: 1rem;
+    width: 75%;
+    line-height: 2rem;
+  }
+  section.Newsletter .textbox .heading-primary {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 1.5rem;
+  }
+
+  section.Newsletter .textbox .paragraph {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+  }
+
+  /*FORM START*/
+  section.Newsletter .textbox form.form .form.container {
+    background-color: #fff;
+    padding: 6px 8px;
+    border-radius: 1rem;
+    align-items: center;
+  }
+
+  section.Newsletter .textbox form.form .form.container input {
+    padding: 1rem 6rem;
+    border: 1px solid #fff;
+  }
+
+  section.Newsletter .textbox form.form .form.container button {
+    padding: 1.3rem 2rem;
+    background-color: #2a3242;
+    border: none;
+    color: #fff;
+    border: inherit;
+    margin-top: 1rem;
+
+    align-items: center;
+  }
+
+  footer.footer .foot .paragraph {
+    text-align: center;
+    color: #c7c9db;
+    font-size: 1.4rem;
   }
 }
 
