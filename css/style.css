@@ -1311,6 +1311,15 @@ footer.footer .foot .paragraph {
     /* line-height: 2rem; */
   }
 
+  .header .contents .textbox.figure {
+    display: flex;
+    margin-top: 2rem;
+    color: #fff;
+    display: flex;
+    gap: 3rem;
+    margin-top: 5rem;
+  }
+
   .header .contents .textbox button.btn {
     background-color: none;
     border: 1px solid #000000;
