@@ -512,7 +512,7 @@ footer.footer {
       rgba(21, 19, 19, 0.53),
       rgba(46, 46, 42, 0.53)
     ),
-    url("/asset/comp.png.5.jpg");
+    url("/asset/images/comp.png.5.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -1239,7 +1239,7 @@ footer.footer .foot .paragraph {
   }
 }
 
-@media only screen and(max-width: 780px) {
+@media only screen and (max-width: 780px) {
   .header {
     min-height: 100vh;
     margin: 1rem 4rem;
@@ -1398,7 +1398,7 @@ footer.footer .foot .paragraph {
   section.Our-Service .textbox .wrapper p.paragraph {
     color: #c7c9db;
     margin: 0 auto;
-    width: 20%;
+    width: 90%;
     text-align: center;
     font-size: 1.5rem;
   }
@@ -2239,7 +2239,6 @@ footer.footer .foot .paragraph {
 }
 
 @media only screen and (max-width: 430px) {
-
   section.Interior-Desgin .textbox.main .heading-primary {
     color: #fff;
     font-size: 3.2rem;
@@ -2350,12 +2349,11 @@ footer.footer .foot .paragraph {
     width: 30rem;
     object-fit: cover;
   }
-  
+
   section.Interior-Desgin .composition.info .image img {
     height: 100%;
     width: 100%;
   }
 }
-
 
 /*RESPONSIVE END*/
